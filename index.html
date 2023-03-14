@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator by Sai Vamsi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quote-box">
+        <h2>Quotes of the day</h2>
+        <blockquote id="quote">LOADING...</blockquote>
+        <span id="author">LOADING...</span>
+        <div>
+            <button onclick="getquote(api_url);">New Quote</button>
+            <button onclick="tweet()"><img src="Twitter-logo.png">Tweet</button>
+
+        </div>
+    </div>
+<script>
+const quote = document.getElementById("quote");
+const author = document.getElementById("author");
+const api_url = "https://api.quotable.io/random?tags=technology,famous-quotes";
+
+async function getquote(url){
+    const response = await fetch(url);
+    var data = await response.json();
+    quote.innerHTML = data.content;    
+    author.innerHTML = data.author;    
+}
+getquote(api_url);
+
+function tweet(){
+    window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML, + " by " + author.innerHTML, "Tweet Window", "width=600, height=300");
+}
+</script>
+
+</body>
+</html>
