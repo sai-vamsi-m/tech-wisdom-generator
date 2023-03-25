@@ -14,7 +14,7 @@ This project was created using the following tools:
 
 ## ❇️ Getting Started
 
-To run the project, simply open the `index.html` file in your web browser. You should see a webpage with a "New Quote" and "Tweet" buttons. Clicking those buttons will display a new random quote on the page and can tweet the quote on twitter 
+To run the project, simply open the `index.html` file in your web browser, you should see a webpage with a "New Quote" and "Tweet" buttons. Clicking those buttons will display a new random quote on the page and can tweet the quote on twitter 
 
 ## ⚙️ How It Works
 
