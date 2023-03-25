@@ -31,6 +31,8 @@ JavaScript Programming: The project heavily relies on JavaScript programming to 
 
 Web Development: The project also provided me an excellent opportunity to learn web development skills such as HTML and CSS. You can learn how to create webpages, style them with CSS, and add interactivity with JavaScript.
 
+Overall, this project was a great learning experience that helped me improve my web development skills and gain a better understanding of the technologies involved.
+
 ## 📸Screenshots
 
 - Interface
