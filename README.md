@@ -32,17 +32,6 @@ The project also uses CSS to style the webpage and make it more visually appeali
 
 ![Twitter Intent to Tweet](https://user-images.githubusercontent.com/117112672/225022887-3c3b8fc3-a776-431f-900b-0bd3236d1ee1.png)
 
-## 📖 Lessons Learned
-By doing this Tech Quote Generator project on my own, I have learnt several valuable skills, including:
-
-Working with APIs: The project involves fetching data from an external API and displaying it on a webpage. This helped me to learn how to make API requests, and work with APIs in general.
-
-JavaScript Programming: The project heavily relies on JavaScript programming to fetch and display quotes. By doing this project, I learnt more about JavaScript functions, variables, and other essential programming concepts.
-
-Web Development: The project also provided me an excellent opportunity to learn web development skills such as HTML and CSS. You can learn how to create webpages, style them with CSS, and add interactivity with JavaScript.
-
-Overall, this project was a great learning experience that helped me improve my web development skills and gain a better understanding of the technologies involved.
-
 ## 🚀 About Me
 Hi there! I am Sai Vamsi, a final year computer science undergraduate with specialization in Artificial Intelligence at Vel Tech University, Chennai. I have a strong passion for software development, and Artificial Intelligence.
 
