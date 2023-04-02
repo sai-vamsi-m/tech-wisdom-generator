@@ -1,6 +1,6 @@
 # Tech Quote Generator
 
-This project is a simple quote generator that displays a random quote each time the "New Quote" button is clicked. The quotes are fetched from a Quote Generator API and displayed on the webpage using HTML, CSS, and JavaScript. By clicking on Tweet button, we can tweet the generated quote on twitter.
+This project is a simple quote generator that displays a random quote each time the `New Quote` button is clicked. The quotes are fetched from a Quote Generator API and displayed on the webpage using HTML, CSS, and JavaScript. By clicking on Tweet button, we can tweet the generated quote on twitter.
 
 ## 🛠️ Tools Used
 
@@ -17,19 +17,19 @@ This project was created using the following tools:
 To run the project, please follow the below steps:
 
 - Clone the project repository to your local machine.
-- Open the project folder and locate the 'index.html' file.
-- Click on the "New Quote" button to generate a random quote from the Quotable API. The quote will appear on the webpage.
+- Open the project folder and locate the `index.html` file.
+- Click on the `New Quote` button to generate a random quote from the Quotable API. The quote will appear on the webpage.
 - To share the quote on Twitter, click on the "Tweet" button. This will open a new window with a pre-populated tweet containing the quote text and author. You can edit the tweet as desired before posting it.
-- To generate a new quote, simply click on the "New Quote" button again. This will fetch a new random quote from the API and display it on the webpage.
+- To generate a new quote, simply click on the `New Quote` button again. This will fetch a new random quote from the API and display it on the webpage.
 - You can continue clicking on the "New Quote" button to generate more quotes and share them on Twitter as desired.
 
 ## ⚙️ How It Works
 
 Here's how the project works:
 
-- The user opens the web application in their web browser by accessing the index.html file.
+- The user opens the web application in their web browser by accessing the `index.html` file.
 - The web application displays a simple user interface with a "New Quote" button and a "Tweet" button.
-- The user clicks on the "New Quote" button.
+- The user clicks on the `New Quote` button.
 - JavaScript sends an API request to the Quotable API to fetch a random quote.
 - The Quotable API responds with a JSON object containing the quote text and author.
 - JavaScript retrieves the quote text and author from the API response and displays it on the webpage.
